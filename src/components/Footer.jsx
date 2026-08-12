@@ -143,7 +143,7 @@ export default function WebsiteFooter() {
 
         
           <div className="border-t border-slate-800/80 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-            <p>© {new Date().getFullYear()} 1BETMAX. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} 1XBET. All rights reserved.</p>
             <p>18+ | Play Responsibly</p>
           </div>
 

@@ -359,7 +359,7 @@ export default function TermsAndConditions() {
         <div className="lg:col-span-5 lg:sticky lg:top-6">
           <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-xl bg-slate-900 aspect-[5/4]">
             <Image 
-              src="/images/SECURITY TEAM.jpg" 
+              src="/images/CUSTOME SUPPORT .jpg" 
               alt="1x Bet Security Team" 
               width={500}
               height={400}
@@ -416,10 +416,8 @@ export default function TermsAndConditions() {
 
       </div>
 
-      {/* DIVIDER */}
       <hr className="border-slate-800" />
 
-      {/* SECTION 2: CUSTOMER SUPPORT */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
         {/* Text Content (Left) */}
