@@ -82,7 +82,7 @@ export default function HeroBanner() {
             </div>
           </div>
 
-          {/* RIGHT SIDE: Half Video / Half Image Partition Grid */}
+        
           <div className="relative hidden md:grid grid-cols-2 h-full border-l border-slate-800/50">
             {/* Left 50% Partition: Video */}
             <div className="relative h-full overflow-hidden border-r border-slate-800/80">

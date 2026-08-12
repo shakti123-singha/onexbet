@@ -24,7 +24,7 @@ export default function WebsiteFooter() {
 
   return (
     <>
-      {/* 1. FLOATING WHATSAPP BUTTON (Har page pe scroll hone par rahega) */}
+   
       <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">
         <div className="hidden sm:flex items-center gap-2 bg-[#0e182e] text-white text-xs font-semibold px-3 py-2 rounded-xl border border-emerald-500/30 shadow-2xl">
           <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
@@ -42,11 +42,11 @@ export default function WebsiteFooter() {
         </a>
       </div>
 
-      {/* 2. MAIN FOOTER */}
+    
       <footer className="bg-[#0e182e] border-t border-slate-800 text-slate-400 pt-12 pb-8 px-4 md:px-8 mt-12">
         <div className="max-w-7xl mx-auto space-y-10">
           
-          {/* Top WhatsApp Query Box */}
+         
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center bg-[#13223f] border border-slate-800 p-6 rounded-2xl">
             <div className="lg:col-span-6 space-y-1">
               <div className="flex items-center gap-2 text-emerald-400 font-bold text-xs uppercase tracking-wider">
@@ -77,10 +77,10 @@ export default function WebsiteFooter() {
             </div>
           </div>
 
-          {/* Navigation & Info Links */}
+       
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-xs md:text-sm">
             
-            {/* Quick Links matching Header */}
+          
             <div className="space-y-3">
               <h4 className="text-white font-bold text-xs tracking-wider uppercase border-b border-slate-800 pb-2">
                 Quick Links
@@ -94,7 +94,7 @@ export default function WebsiteFooter() {
               </ul>
             </div>
 
-            {/* Popular Betting Markets */}
+           
             <div className="space-y-3">
               <h4 className="text-white font-bold text-xs tracking-wider uppercase border-b border-slate-800 pb-2">
                 Popular Markets
@@ -107,7 +107,7 @@ export default function WebsiteFooter() {
               </ul>
             </div>
 
-            {/* Help & Security */}
+           
             <div className="space-y-3">
               <h4 className="text-white font-bold text-xs tracking-wider uppercase border-b border-slate-800 pb-2">
                 Support
@@ -141,7 +141,7 @@ export default function WebsiteFooter() {
 
           </div>
 
-          {/* Bottom Copyright */}
+        
           <div className="border-t border-slate-800/80 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
             <p>© {new Date().getFullYear()} 1BETMAX. All rights reserved.</p>
             <p>18+ | Play Responsibly</p>

@@ -40,7 +40,7 @@ const [openIndex, setOpenIndex] = useState(null);
             id: 'g5',
             title: 'Burning Hot',
            
-            image: '/images/burning hot.jpg',
+            image: '/images/BURNING HOT.jpg',
             desc: 'Burning Hot is a classic slot game with fire inspiring graphics, vibrant symbols and fun to play. The game is a quintessential slot with all modern graphics and performance on desktop and mobile.'
         },
         {
@@ -137,7 +137,7 @@ const [openIndex, setOpenIndex] = useState(null);
             id: 'football',
             title: 'Football',
             subtitle: "The World's Most Popular Sport",
-            image: '/images/football.jpg',
+            image: '/images/FOOTBALL.jpg',
             content: "With games scheduled through leagues and tournaments worldwide, football provides constant entertainment. Players can follow betting on club competitions, international championships and cup tournaments at 1x Bet with a variety of betting options. If it's any kind of prediction you like, whether it's for the winning team, the total of goals or how good they think their players will fare, football offers action all season long."
         },
         {
@@ -245,12 +245,11 @@ const [openIndex, setOpenIndex] = useState(null);
                     </p>
                 </div>
 
-                {/* Intro Description */}
                 <p className="text-xs md:text-sm leading-relaxed text-slate-300">
                     <strong className="text-white">1x Bet</strong> is a contemporary online site designed specially for sports lovers and casino aficionados who value security, speed, and ease of use. If you follow some popular cricket competitions, if you cheer for your beloved football team, or just would like to explore various casino games available on our site, you have come to the right place.
                 </p>
 
-                {/* Feature Highlights Grid */}
+              
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                     <div className="bg-[#1a2b4c]/60 border border-slate-800 p-4 rounded-lg space-y-2">
                         <div className="text-orange-500 text-xl font-bold">📱 Cross-Platform</div>
@@ -282,7 +281,7 @@ const [openIndex, setOpenIndex] = useState(null);
 
             <div className="space-y-8 text-slate-300">
 
-                {/* SECTION 1: Welcome & Special Offers */}
+              
                  <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 space-y-10 text-slate-300">
    
                     <div className="border-b border-slate-800 pb-4">
@@ -298,7 +297,7 @@ const [openIndex, setOpenIndex] = useState(null);
                         New players receive special promotion opportunities that will make their journey more enjoyable right from the beginning. Eligible customers can benefit from new player offers, while repeat players can benefit from seasonal and loyalty promotions all year round. We have crafted our promotions with the aim of rewarding active players and delivering additional value in both sports betting and casino gaming.
                     </p>
 
-                    {/* Special Promotions Grid */}
+                
                     <div className="space-y-3">
                         <h3 className="text-sm font-bold text-orange-400 uppercase tracking-wider">
                             Special Promotions Available
@@ -316,7 +315,7 @@ const [openIndex, setOpenIndex] = useState(null);
                     </div>
                 </section>
 
-                {/* SECTION 2: Instant Games Introduction */}
+              
                 <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-8 space-y-6">
                     <div className="border-b border-slate-800 pb-4">
                         <h2 className="text-xl md:text-2xl font-black text-white italic tracking-wide">
@@ -329,7 +328,7 @@ const [openIndex, setOpenIndex] = useState(null);
 
                     </p>
 
-                    {/* Why Play List */}
+                  
                     <div className="bg-[#1a2b4c]/50 border border-slate-800 p-5 rounded-lg space-y-3">
                         <h3 className="text-sm font-bold text-white uppercase tracking-wider border-b border-slate-700/50 pb-2">
                             Why Play Instant Games at 1x Bet?
@@ -344,7 +343,7 @@ const [openIndex, setOpenIndex] = useState(null);
                     </div>
                 </section>
 
-                {/* SECTION 3: Games Catalog Grid with 300x200 Images */}
+               
                 <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-8 space-y-6">
                     <div className="border-b border-slate-800 pb-4 flex items-center justify-between">
                         <h2 className="text-xl md:text-2xl font-black text-white italic tracking-wide">
@@ -361,7 +360,7 @@ const [openIndex, setOpenIndex] = useState(null);
                                 key={game.id}
                                 className="bg-[#1a2b4c] border border-slate-700/80 rounded-lg overflow-hidden flex flex-col group hover:border-orange-500 transition duration-300"
                             >
-                                {/* 300x200 Image Container */}
+                            
                                 <div className="relative w-full h-[180px] overflow-hidden bg-slate-900">
                                     <img
                                         src={game.image}
@@ -373,7 +372,7 @@ const [openIndex, setOpenIndex] = useState(null);
                                     </span>
                                 </div>
 
-                                {/* Game Content */}
+                              
                                 <div className="p-4 flex-1 flex flex-col justify-between space-y-2">
                                     <div>
                                         <h3 className="text-sm font-extrabold text-white group-hover:text-orange-400 transition">
@@ -401,7 +400,7 @@ const [openIndex, setOpenIndex] = useState(null);
 
             <div className="space-y-8 text-slate-300">
 
-                {/* Main Sports Betting Intro Banner */}
+              
                 <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-8 space-y-4">
                     <div className="border-b border-slate-800 pb-4">
                         <h2 className="text-xl md:text-2xl font-black text-white italic tracking-wide">
@@ -421,7 +420,7 @@ const [openIndex, setOpenIndex] = useState(null);
                     </p>
                 </section>
 
-                {/* Side-by-Side Sports List Section */}
+              
                <section className="space-y-6">
   {sportsData.map((sport, index) => {
     const isEven = index % 2 === 0;
@@ -431,7 +430,7 @@ const [openIndex, setOpenIndex] = useState(null);
         key={sport.id}
         className="bg-[#121e36] border border-slate-800 rounded-xl overflow-hidden p-4 sm:p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-center"
       >
-        {/* Image Side (Fully Responsive 4:3 Aspect Ratio) */}
+       
         <div className={`w-full flex justify-center ${isEven ? 'md:order-1' : 'md:order-2'}`}>
           <div className="relative w-full max-w-[400px] aspect-[4/3] rounded-lg overflow-hidden border border-slate-700/60 shadow-lg bg-slate-900 flex items-center justify-center p-1">
             <img
@@ -440,12 +439,12 @@ const [openIndex, setOpenIndex] = useState(null);
               className="w-full h-full object-contain rounded"
               loading="lazy"
             />
-            {/* Soft Overlay */}
+         
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent pointer-events-none" />
           </div>
         </div>
 
-        {/* Content Side */}
+    
         <div className={`space-y-3 ${isEven ? 'md:order-2' : 'md:order-1'}`}>
           <div>
             <h3 className="text-xl font-extrabold text-white tracking-wide">
@@ -505,15 +504,15 @@ const [openIndex, setOpenIndex] = useState(null);
             1x Bet supports a variety of popular payment methods to suit players across different regions, including:
           </p>
 
-          {/* INFINITE AUTO-SCROLLING PAYMENT LOGOS */}
+          
           <div className="relative w-full overflow-hidden bg-[#0e182e] py-4 rounded-xl border border-slate-800">
-            {/* Gradient Fades for left/right edges */}
+           
             <div className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-[#0e182e] to-transparent z-10 pointer-events-none" />
             <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-[#0e182e] to-transparent z-10 pointer-events-none" />
 
-            {/* Scrolling Track */}
+          
             <div className="flex w-max gap-4 animate-[scroll_20s_linear_infinite] hover:[animation-play-state:paused]">
-              {/* Render items twice for seamless continuous infinite loop */}
+             
               {[...paymentMethods, ...paymentMethods].map((item, index) => (
                 <div
                   key={index}
@@ -538,9 +537,8 @@ const [openIndex, setOpenIndex] = useState(null);
     {/* ------------------------------------------------------------------------- */}
     <div className="space-y-8 text-slate-300">
 
-      {/* WHY OPT FOR 1X BET PAYMENTS SECTION */}
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-8 space-y-6">
-        {/* Header Title */}
+       
         <div className="border-b border-slate-800 pb-4">
           <h2 className="text-xl md:text-2xl font-black text-white italic tracking-wide">
             Why Opt for <span className="text-orange-500">1x Bet Payments?</span>
@@ -550,7 +548,7 @@ const [openIndex, setOpenIndex] = useState(null);
           </p>
         </div>
 
-        {/* Feature Cards Grid */}
+       
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-2">
           {features.map((item) => (
             <div
@@ -558,7 +556,7 @@ const [openIndex, setOpenIndex] = useState(null);
               className="bg-[#1a2b4c]/80 border border-slate-700/60 hover:border-orange-500 p-5 rounded-xl flex flex-col justify-between space-y-3 transition duration-300 group hover:shadow-lg hover:shadow-orange-500/10"
             >
               <div className="space-y-3">
-                {/* Header with Icon and Tag */}
+               
                 <div className="flex items-center justify-between">
                   <span className="text-3xl bg-[#0e182e] p-2.5 rounded-lg border border-slate-700/80 group-hover:border-orange-500/50 transition">
                     {item.icon}
@@ -573,13 +571,13 @@ const [openIndex, setOpenIndex] = useState(null);
                   {item.title}
                 </h3>
 
-                {/* Exact Text Content */}
+               
                 <p className="text-xs leading-relaxed text-slate-300">
                   {item.desc}
                 </p>
               </div>
 
-              {/* Decorative Bottom Bar */}
+             
               <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
                 <div className="w-0 group-hover:w-full h-full bg-orange-500 transition-all duration-500" />
               </div>
@@ -596,17 +594,17 @@ const [openIndex, setOpenIndex] = useState(null);
     </div>
     {/* --------------------------------------------------------------------------------------------- */}
     <section className="relative overflow-hidden bg-gradient-to-r from-[#121e36] via-[#1a2b4c] to-[#121e36] border border-orange-500/30 rounded-xl p-6 md:p-10 text-center text-slate-300 shadow-xl shadow-orange-500/5 py-5">
-      {/* Background Decorative Elements */}
+
       <div className="absolute -top-12 -left-12 w-32 h-32 bg-orange-500/10 rounded-full blur-2xl pointer-events-none" />
       <div className="absolute -bottom-12 -right-12 w-32 h-32 bg-orange-500/10 rounded-full blur-2xl pointer-events-none" />
 
       <div className="relative z-10 max-w-3xl mx-auto space-y-4">
-        {/* Main Heading */}
+       
         <h2 className="text-2xl md:text-3xl font-black text-white italic tracking-wide">
           Become an <span className="text-orange-500">1x Bet</span> Member Right Now!
         </h2>
 
-        {/* Content Paragraphs (Exact Text) */}
+      
         <p className="text-xs md:text-sm leading-relaxed text-slate-300">
           If you like sports betting, live events, or online gambling, then 1x Bet has a state-of-the-art site that is both entertaining and reliable.
         </p>
@@ -615,7 +613,7 @@ const [openIndex, setOpenIndex] = useState(null);
           Join our community today and experience the thrill of sports betting and online gambling.
         </p>
 
-        {/* Action Button */}
+       
         <div className="pt-2">
           <button className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-extrabold text-sm md:text-base px-8 py-3.5 rounded-lg transition duration-300 shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 uppercase tracking-wider transform hover:-translate-y-0.5">
             Become a Member Now
@@ -626,15 +624,15 @@ const [openIndex, setOpenIndex] = useState(null);
     {/* ----------------------------------------------------------------------- */}
     <div className="space-y-10 text-slate-300 py-5">
 
-      {/* --- PLAY RESPONSIBLY SECTION --- */}
+    
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-8 space-y-6">
         
-        {/* Main Title */}
+       
         <h2 className="text-xl md:text-2xl font-black text-white italic tracking-wide border-b border-slate-800 pb-4">
           Play Responsibly at <span className="text-orange-500">1x Bet</span>
         </h2>
 
-        {/* Intro Paragraphs */}
+       
         <div className="space-y-4 text-xs md:text-sm leading-relaxed text-slate-300">
           <p>
             1x Bet believes that online gaming should be an enjoyable and entertaining experience for all gamers. We urge all our players to play responsibly by controlling their time spent playing and managing their finances accordingly. Responsible gaming is important since it will make sure that betting is just for fun and not a cause of stress.
@@ -644,10 +642,10 @@ const [openIndex, setOpenIndex] = useState(null);
           </p>
         </div>
 
-        {/* Two Column Grid */}
+      
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
           
-          {/* Tips for Playing */}
+        
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-5 space-y-3">
             <h3 className="text-sm font-extrabold text-white uppercase tracking-wider border-b border-slate-700/80 pb-2">
               Tips for Playing
@@ -674,7 +672,7 @@ const [openIndex, setOpenIndex] = useState(null);
             </ul>
           </div>
 
-          {/* Recognizing the Signs */}
+         
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-5 space-y-3">
             <h3 className="text-sm font-extrabold text-white uppercase tracking-wider border-b border-slate-700/80 pb-2">
               Recognizing the Signs of Problematic Gaming
@@ -704,7 +702,7 @@ const [openIndex, setOpenIndex] = useState(null);
 
         </div>
 
-        {/* Looking For Help */}
+     
         <div className="bg-[#0e182e] border border-slate-800 rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-6 mt-4">
           <div className="space-y-2 text-center md:text-left max-w-2xl">
             <h3 className="text-base md:text-lg font-bold text-white">
@@ -725,7 +723,7 @@ const [openIndex, setOpenIndex] = useState(null);
     {/* -------------------------------------------------------------------------------------------- */}
     <div className="space-y-10 text-slate-300">
 
-      {/* --- OUR RESPONSIBILITY SECTION (ALAG SECTION) --- */}
+    
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-8 space-y-4">
         <h2 className="text-xl md:text-2xl font-black text-white italic tracking-wide border-b border-slate-800 pb-4">
           Our <span className="text-orange-500">Responsibility</span>
@@ -735,7 +733,7 @@ const [openIndex, setOpenIndex] = useState(null);
           Responsible gambling is at the heart of our responsibilities towards our clients here at 1x Bet . We try to create an atmosphere of safety, reliability, and entertainment for each individual. Through promoting responsible gambling and providing our clients with responsible gambling information, we want to make sure that each of them is having a good time.
         </p>
 
-        {/* Highlight Box for Keep In Mind */}
+      
         <div className="bg-[#1a2b4c]/80 border-l-4 border-orange-500 p-4 rounded-r-lg mt-2">
           <p className="text-xs md:text-sm font-bold text-white">
             Keep In Mind: <span className="text-slate-300 font-normal">Gambling should always remain entertaining and never go beyond your means!</span>
@@ -745,12 +743,12 @@ const [openIndex, setOpenIndex] = useState(null);
       </div>
       {/* --------------------------------------faq------------------------------------------------ */}
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-8 space-y-6 text-slate-300 py-5">
-      {/* Title */}
+    
       <h2 className="text-xl md:text-2xl font-black text-white italic tracking-wide border-b border-slate-800 pb-4">
         General <span className="text-orange-500">Queries</span>
       </h2>
 
-      {/* Accordion List */}
+     
       <div className="space-y-3">
         {faqs.map((faq, index) => {
           const isOpen = openIndex === index;
@@ -763,7 +761,7 @@ const [openIndex, setOpenIndex] = useState(null);
                   : 'bg-[#1a2b4c]/50 border-slate-700/60 hover:border-slate-600'
               }`}
             >
-              {/* Question Header */}
+          
               <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full text-left p-4 md:p-5 flex justify-between items-center space-x-4 focus:outline-none"
@@ -780,7 +778,7 @@ const [openIndex, setOpenIndex] = useState(null);
                 </span>
               </button>
 
-              {/* Animated Answer Body */}
+              
               <div
                 className={`transition-all duration-300 ease-in-out ${
                   isOpen

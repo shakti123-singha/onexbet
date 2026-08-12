@@ -49,9 +49,9 @@ export default function Header() {
           </nav>
         </div>
 
-        {/* Action Buttons & Mobile Menu Toggle */}
+       
         <div className="flex items-center space-x-3 text-sm font-semibold">
-          {/* Action Buttons (Desktop & Mobile) */}
+       
           <button className="bg-orange-500 hover:bg-orange-600 text-white px-3 sm:px-5 py-2 rounded-md transition shadow-md text-xs sm:text-sm">
             REGISTER
           </button>
@@ -59,7 +59,7 @@ export default function Header() {
             LOGIN
           </button>
 
-          {/* Mobile Hamburger Button */}
+       
           <button
             onClick={toggleMenu}
             className="md:hidden text-slate-300 hover:text-white p-1 focus:outline-none"
@@ -75,7 +75,7 @@ export default function Header() {
 
       </div>
 
-      {/* Mobile Dropdown Navigation Menu */}
+   
       {isMobileMenuOpen && (
         <nav className="md:hidden bg-[#0a1223] border-b border-slate-800 px-4 pt-3 pb-5 space-y-3">
           <Link 

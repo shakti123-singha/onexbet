@@ -72,7 +72,7 @@ export default function TypesOfBets() {
     <div>
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 space-y-6 text-slate-300">
 
-        {/* Main Title & Subtitle */}
+      
         <header className="space-y-2 border-b border-slate-800 pb-6">
           <h1 className="text-2xl md:text-4xl font-black text-white italic tracking-wide">
             Types of Bets at <span className="text-orange-500">1x Bet</span>
@@ -82,7 +82,7 @@ export default function TypesOfBets() {
           </p>
         </header>
 
-        {/* Paragraph Content */}
+      
         <div className="space-y-4 text-xs md:text-sm leading-relaxed text-slate-300">
           <p>
             Going into sports betting isn't only about foreseeing which team will win a game. Players at 1x Bet have the option of playing through a number of betting formats, aligning these to various winning methods, experience levels and preferences. From placing a single bet on your favorite team to consolidating several bets into a juicy combination, knowing the types of bets you can play can make optimal decisions and raise your betting experience.
@@ -102,10 +102,10 @@ export default function TypesOfBets() {
 
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 text-slate-300">
 
-        {/* Content Container (Text Left, Image Right) */}
+       
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
 
-          {/* Left Side: All Text & Points */}
+         
           <div className="lg:col-span-7 space-y-6">
 
             <header className="space-y-2 border-b border-slate-800 pb-4">
@@ -126,8 +126,7 @@ export default function TypesOfBets() {
               </p>
             </div>
 
-            {/* Why to play single bets */}
-            <div className="space-y-4 pt-2">
+             <div className="space-y-4 pt-2">
               <h2 className="text-lg md:text-xl font-extrabold text-white italic border-l-4 border-orange-500 pl-3">
                 Why to play single bets:
               </h2>
@@ -151,8 +150,7 @@ export default function TypesOfBets() {
             </p>
 
           </div>
-
-          {/* Right Side: Single Animated Image Box */}
+ 
           <div className="lg:col-span-5 lg:sticky lg:top-6">
             <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-xl bg-slate-900 aspect-[5/4]">
               <Image
@@ -173,15 +171,16 @@ export default function TypesOfBets() {
           </div>
 
         </div>
+         
 
       </section>
       {/* ---------------------------------------------------------------------------- */}
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 text-slate-300">
 
-        {/* Content Container (Image Left, Text Right) */}
+       
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
 
-          {/* Left Side: Animated Image Box */}
+        
           <div className="lg:col-span-5 lg:sticky lg:top-6 order-2 lg:order-1">
             <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-xl bg-slate-900 aspect-[5/4]">
               <Image
@@ -201,7 +200,7 @@ export default function TypesOfBets() {
             </div>
           </div>
 
-          {/* Right Side: Text Content & Benefits List */}
+          
           <div className="lg:col-span-7 space-y-6 order-1 lg:order-2">
 
             <header className="space-y-2 border-b border-slate-800 pb-4">
@@ -225,7 +224,7 @@ export default function TypesOfBets() {
               </p>
             </div>
 
-            {/* Benefits List */}
+            
             <div className="space-y-4 pt-2">
               <h2 className="text-lg md:text-xl font-extrabold text-white italic border-l-4 border-orange-500 pl-3">
                 Benefits of Accumulator Bets:
@@ -257,11 +256,11 @@ export default function TypesOfBets() {
       {/* --------------------------------------------------------------------------- */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#0e182e] via-[#121e36] to-[#1a2b4c] border border-slate-800 rounded-2xl p-6 md:p-10 text-slate-300 shadow-2xl">
 
-        {/* Background Decorative Glow */}
+        
         <div className="absolute -top-24 -left-24 w-72 h-72 bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute -bottom-24 -right-24 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
 
-        {/* Header Banner */}
+        
         <header className="relative z-10 text-center space-y-3 pb-8 border-b border-slate-800/80 max-w-3xl mx-auto">
           <span className="inline-block px-3 py-1 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold uppercase tracking-widest rounded-full">
             Advanced Strategy
@@ -274,7 +273,7 @@ export default function TypesOfBets() {
           </p>
         </header>
 
-        {/* Hero Section: Center Animated Visual Card */}
+       
         <div className="relative z-10 my-8">
         
 <div className="relative group w-full max-w-[800px] aspect-[2/1] mx-auto rounded-2xl overflow-hidden border border-slate-700/80  bg-slate-900">
@@ -302,7 +301,7 @@ export default function TypesOfBets() {
           </div>
         </div>
 
-        {/* Content Grid: Interactive Floating Text Blocks */}
+        
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 p-5 rounded-xl hover:border-orange-500/50 transition duration-300 backdrop-blur-sm">
             <p className="text-xs md:text-sm leading-relaxed text-slate-300">
@@ -323,7 +322,7 @@ export default function TypesOfBets() {
           </div>
         </div>
 
-        {/* Reasons Section: Animated Numbered Cards */}
+       
         <div className="relative z-10 space-y-6 pt-6 border-t border-slate-800">
           <h2 className="text-xl md:text-2xl font-black text-white italic text-center">
             What are the reasons for the selection of <span className="text-orange-500">System Bets?</span>
@@ -351,14 +350,14 @@ export default function TypesOfBets() {
       {/* ------------------------------------------------------------------------------------------- */}
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 text-slate-300">
 
-        {/* Side-by-Side Grid Container */}
+      
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
-          {/* SECTION 1: CHAIN BET */}
+         
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 md:p-8 flex flex-col justify-between space-y-6 hover:border-orange-500/50 transition duration-300 shadow-xl">
             <div className="space-y-6">
 
-              {/* Header */}
+           
               <header className="space-y-2 border-b border-slate-700/80 pb-4">
                 <span className="text-[10px] uppercase font-bold text-orange-400 tracking-wider bg-orange-500/10 border border-orange-500/20 px-2.5 py-1 rounded-full inline-block">
                   Sequential Strategy
@@ -371,7 +370,7 @@ export default function TypesOfBets() {
                 </p>
               </header>
 
-              {/* Animated Card Image */}
+            
               <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg bg-slate-900 aspect-[5/4]">
                 <Image
                   src="/images/CHAN BET.jpg"
@@ -389,7 +388,7 @@ export default function TypesOfBets() {
                 </div>
               </div>
 
-              {/* Content Paragraphs */}
+            
               <div className="space-y-3 text-xs md:text-sm leading-relaxed text-slate-300">
                 <p>
                   Chain Bet consists of several individual bets that are played in a row. Upon winning each time a winning selection is made, the balance moves to the next link in the chain.
@@ -401,17 +400,17 @@ export default function TypesOfBets() {
 
             </div>
 
-            {/* Footer Note */}
+           
             <p className="text-xs md:text-sm leading-relaxed text-slate-300 pt-3 border-t border-slate-700/80 font-medium">
               Players who like to plan a betting game over multiple sporting events are likely to use chain bets.
             </p>
           </div>
 
-          {/* SECTION 2: MULTIBET */}
+        
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 md:p-8 flex flex-col justify-between space-y-6 hover:border-orange-500/50 transition duration-300 shadow-xl">
             <div className="space-y-6">
 
-              {/* Header */}
+              
               <header className="space-y-2 border-b border-slate-700/80 pb-4">
                 <span className="text-[10px] uppercase font-bold text-orange-400 tracking-wider bg-orange-500/10 border border-orange-500/20 px-2.5 py-1 rounded-full inline-block">
                   Hybrid Combination
@@ -424,7 +423,7 @@ export default function TypesOfBets() {
                 </p>
               </header>
 
-              {/* Animated Card Image */}
+             
               <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg bg-slate-900 aspect-[5/4]">
                 <Image
                   src="/images/multibet.jpg"
@@ -441,7 +440,7 @@ export default function TypesOfBets() {
                 </div>
               </div>
 
-              {/* Content Paragraphs */}
+           
               <div className="space-y-3 text-xs md:text-sm leading-relaxed text-slate-300">
                 <p>
                   A Multibet is a gamble that incorporates various gaming type into the same wager, typically bringing in various selections.
@@ -453,7 +452,7 @@ export default function TypesOfBets() {
 
             </div>
 
-            {/* Advantages List */}
+         
             <div className="space-y-3 pt-3 border-t border-slate-700/80">
               <h3 className="text-sm md:text-base font-extrabold text-white italic border-l-4 border-orange-500 pl-3">
                 Advantages
@@ -481,14 +480,14 @@ export default function TypesOfBets() {
       {/* ------------------------------------------------------------------------------------------- */}
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 text-slate-300">
 
-        {/* Side-by-Side Grid Container */}
+       
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
-          {/* SECTION 1: CONDITIONAL BET */}
+         
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 md:p-8 flex flex-col justify-between space-y-6 hover:border-orange-500/50 transition duration-300 shadow-xl">
             <div className="space-y-6">
 
-              {/* Header */}
+             
               <header className="space-y-2 border-b border-slate-700/80 pb-4">
                 <span className="text-[10px] uppercase font-bold text-orange-400 tracking-wider bg-orange-500/10 border border-orange-500/20 px-2.5 py-1 rounded-full inline-block">
                   Risk Management
@@ -501,7 +500,7 @@ export default function TypesOfBets() {
                 </p>
               </header>
 
-              {/* Content Paragraphs */}
+           
               <div className="space-y-4 text-xs md:text-sm leading-relaxed text-slate-300">
                 <p className="bg-[#0e182e]/80 border border-slate-700/70 p-4 rounded-lg">
                   A Conditional Bet lets you get a chain of bets set up in a certain sequence. The stakes to each wager are determined by the other wager.
@@ -514,11 +513,11 @@ export default function TypesOfBets() {
             </div>
           </div>
 
-          {/* SECTION 2: ANTI-ACCUMULATOR */}
+         
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 md:p-8 flex flex-col justify-between space-y-6 hover:border-orange-500/50 transition duration-300 shadow-xl">
             <div className="space-y-6">
 
-              {/* Header */}
+             
               <header className="space-y-2 border-b border-slate-700/80 pb-4">
                 <span className="text-[10px] uppercase font-bold text-orange-400 tracking-wider bg-orange-500/10 border border-orange-500/20 px-2.5 py-1 rounded-full inline-block">
                   Alternative Strategy
@@ -531,7 +530,6 @@ export default function TypesOfBets() {
                 </p>
               </header>
 
-              {/* Content Paragraphs */}
               <div className="space-y-4 text-xs md:text-sm leading-relaxed text-slate-300">
                 <p className="bg-[#0e182e]/80 border border-slate-700/70 p-4 rounded-lg">
                   A flip over Accumulator betting is an alternative to the Accumulator betting. In this type of wager, which is based on a situation where one or more selections fail to win, instead of having to bet all selections to win a payout, only the winning selections are required to win.
@@ -550,7 +548,7 @@ export default function TypesOfBets() {
       {/* --------------------------------------------------------------- */}
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 text-slate-300 space-y-8">
 
-        {/* TOP CARD: LUCKY BET (Dashboard Style) */}
+      
         <div className="bg-[#1a2b4c]/70 border border-slate-700/80 rounded-2xl p-6 md:p-8 space-y-6 shadow-2xl relative overflow-hidden">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-700/80 pb-6">
             <div>
@@ -579,7 +577,7 @@ export default function TypesOfBets() {
             </div>
           </div>
 
-          {/* Interactive Stats Badge Grid */}
+        
           <div className="space-y-3 pt-2">
             <h3 className="text-sm font-extrabold text-white uppercase tracking-wider text-slate-200">
               Why Players Like Lucky Bets
@@ -599,7 +597,7 @@ export default function TypesOfBets() {
           </div>
         </div>
 
-        {/* BOTTOM CONTAINER: STRATEGY MATRIX GUIDE */}
+      
         <div className="bg-[#1a2b4c]/40 border border-slate-700/60 rounded-2xl p-6 md:p-8 space-y-6">
 
           <header className="text-center space-y-2 max-w-2xl mx-auto border-b border-slate-700/80 pb-4">
@@ -611,10 +609,10 @@ export default function TypesOfBets() {
             </p>
           </header>
 
-          {/* Timeline Path Structure */}
+     
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 pt-2">
 
-            {/* Beginner Stage */}
+         
             <div className="relative bg-[#0e182e] border-t-4 border-orange-500 rounded-xl p-5 space-y-3 shadow-lg">
               <span className="text-[10px] font-bold uppercase text-orange-400 tracking-wider bg-orange-500/10 px-2.5 py-0.5 rounded">
                 Starting Out
@@ -624,7 +622,7 @@ export default function TypesOfBets() {
               </p>
             </div>
 
-            {/* Intermediate Stage */}
+          
             <div className="relative bg-[#0e182e] border-t-4 border-blue-500 rounded-xl p-5 space-y-3 shadow-lg">
               <span className="text-[10px] font-bold uppercase text-blue-400 tracking-wider bg-blue-500/10 px-2.5 py-0.5 rounded">
                 High Returns & Flexibility
@@ -634,7 +632,7 @@ export default function TypesOfBets() {
               </p>
             </div>
 
-            {/* Advanced Stage */}
+           
             <div className="relative bg-[#0e182e] border-t-4 border-emerald-500 rounded-xl p-5 space-y-3 shadow-lg">
               <span className="text-[10px] font-bold uppercase text-emerald-400 tracking-wider bg-emerald-500/10 px-2.5 py-0.5 rounded">
                 Personalized Plans
@@ -652,7 +650,7 @@ export default function TypesOfBets() {
       {/* ------------------------------------------------------------------------- */}
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 text-slate-300 space-y-10">
 
-        {/* SECTION 1: HOW TO BET BETTER - TIPS */}
+       
         <div className="space-y-6">
           <header className="border-b border-slate-800 pb-4">
             <span className="text-[10px] font-bold uppercase tracking-widest text-orange-400 bg-orange-500/10 border border-orange-500/20 px-3 py-1 rounded-full">
@@ -666,7 +664,7 @@ export default function TypesOfBets() {
             </p>
           </header>
 
-          {/* Responsive Tips Grid */}
+         
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {tips.map((item, index) => {
               const Icon = item.icon;
@@ -693,7 +691,7 @@ export default function TypesOfBets() {
           </div>
         </div>
 
-        {/* SECTION 2: WHY GAMBLE WITH 1X BET */}
+      
         <div className="bg-gradient-to-r from-[#1a2b4c] via-[#121e36] to-[#0e182e] border border-slate-700/80 rounded-2xl p-6 md:p-8 space-y-6 shadow-2xl relative overflow-hidden">
 
           <header className="flex items-center gap-3 border-b border-slate-700/80 pb-4">

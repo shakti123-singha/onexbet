@@ -45,7 +45,7 @@ export default function Contact() {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
     name: 'Contact Us - 1x Bet Support',
-    description: 'Get in touch with 1x Bet support via Email, Live Chat, or Phone.',
+    description: '',
     mainEntity: {
       '@type': 'Organization',
       name: '1x Bet',
@@ -65,7 +65,7 @@ export default function Contact() {
 
   return (
     <>
-      {/* Inject Structured Data for Search Engine Optimization */}
+   
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -73,7 +73,7 @@ export default function Contact() {
 
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 space-y-10 text-slate-300">
         
-        {/* 1. Header Banner */}
+     
         <header className="text-center space-y-4 max-w-3xl mx-auto border-b border-slate-800 pb-8">
           <h1 className="text-2xl md:text-4xl font-black text-white italic tracking-wide">
             Contact Us: <span className="text-orange-500">We're Here to Help</span>
@@ -86,7 +86,7 @@ export default function Contact() {
           </p>
         </header>
 
-        {/* 2. Contact Methods Cards with Next.js Optimized Images (600x400 Optimized) */}
+      
         <div className="space-y-6">
           <h2 className="text-xl md:text-2xl font-extrabold text-white italic border-l-4 border-orange-500 pl-3">
             Get in Touch
@@ -98,7 +98,7 @@ export default function Contact() {
                 className="bg-[#1a2b4c] border border-slate-700/80 rounded-xl overflow-hidden flex flex-col justify-between group hover:border-orange-500/80 transition duration-300 shadow-lg"
               >
                 <div>
-                  {/* Container with 3:2 Aspect Ratio for 600x400 Images */}
+                 
                   <div className="relative w-full aspect-[3/2] overflow-hidden bg-slate-900 flex items-center justify-center p-2">
                     <Image 
                       src={item.image.trim()} 
@@ -134,10 +134,9 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* 3. Availability Schedule Table & Quick Message Form */}
+       
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-4">
           
-          {/* Availability Table */}
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 space-y-4 flex flex-col justify-between">
             <div>
               <h3 className="text-lg font-extrabold text-white border-b border-slate-700 pb-3">
@@ -167,7 +166,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Message Input Form */}
+        
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 space-y-4">
             <h3 className="text-lg font-extrabold text-white border-b border-slate-700 pb-3">
               Send Us a Message

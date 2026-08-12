@@ -222,7 +222,7 @@ export default function TermsAndConditions() {
         <div className="lg:col-span-5 lg:sticky lg:top-6">
           <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-xl bg-slate-900 aspect-[5/4]">
             <Image 
-              src="https://picsum.photos/seed/bonus-reward/500/400" 
+              src="/images/bonus.jpg" 
               alt="1x Bet Bonus Incentives" 
               width={500}
               height={400}
@@ -331,7 +331,7 @@ export default function TermsAndConditions() {
         <div className="lg:col-span-5 lg:sticky lg:top-6 order-1 lg:order-2">
           <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-xl bg-slate-900 aspect-[5/4]">
             <Image 
-              src="https://picsum.photos/seed/privacy-security/500/400" 
+              src="/images/PRIVACY POLICI .jpg" 
               alt="1x Bet Privacy and Data Protection" 
               width={500}
               height={400}
@@ -359,7 +359,7 @@ export default function TermsAndConditions() {
         <div className="lg:col-span-5 lg:sticky lg:top-6">
           <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-xl bg-slate-900 aspect-[5/4]">
             <Image 
-              src="https://picsum.photos/seed/security-team/500/400" 
+              src="/images/SECURITY TEAM.jpg" 
               alt="1x Bet Security Team" 
               width={500}
               height={400}
@@ -461,11 +461,11 @@ export default function TermsAndConditions() {
 
         </div>
 
-        {/* Animated Image Box (Right) */}
+       
         <div className="lg:col-span-5 lg:sticky lg:top-6 order-1 lg:order-2">
           <div className="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-xl bg-slate-900 aspect-[5/4]">
             <Image 
-              src="https://picsum.photos/seed/customer-support/500/400" 
+              src="/images/SECURITY TEAM.jpg" 
               alt="1x Bet Customer Support" 
               width={500}
               height={400}
@@ -486,14 +486,14 @@ export default function TermsAndConditions() {
     {/* -------------------------------------------------------------- */}
     <section className="bg-[#121e36] border border-slate-800 rounded-2xl p-6 md:p-10 text-slate-300 space-y-8">
       
-      {/* Side-by-Side Grid Container */}
+    
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
         
-        {/* SECTION 1: BET CANCELLATION */}
+    
         <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 md:p-8 flex flex-col justify-between space-y-6 hover:border-orange-500/50 transition duration-300 shadow-xl">
           <div className="space-y-6">
             
-            {/* Header */}
+          
             <header className="space-y-2 border-b border-slate-700/80 pb-4">
               <span className="text-[10px] uppercase font-bold text-orange-400 tracking-wider bg-orange-500/10 border border-orange-500/20 px-2.5 py-1 rounded-full inline-block">
                 Policy & Settlement
@@ -503,7 +503,7 @@ export default function TermsAndConditions() {
               </h2>
             </header>
 
-            {/* Intro Paragraph */}
+           
             <p className="bg-[#0e182e]/80 border border-slate-700/70 p-4 rounded-lg text-xs md:text-sm leading-relaxed text-slate-300">
               A Bet Cancellation is when the wager cannot be settled within the given betting rules.
             </p>
@@ -530,17 +530,17 @@ export default function TermsAndConditions() {
 
           </div>
 
-          {/* Footer Note */}
+         
           <p className="text-xs md:text-sm leading-relaxed text-slate-300 pt-3 border-t border-slate-700/80">
             Some cancellations of bets can be brought on due to event cancellations, rule violation or incorrect market publication.
           </p>
         </div>
 
-        {/* SECTION 2: REGULAR TIME */}
+       
         <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 md:p-8 flex flex-col justify-between space-y-6 hover:border-orange-500/50 transition duration-300 shadow-xl">
           <div className="space-y-6">
             
-            {/* Header */}
+           
             <header className="space-y-2 border-b border-slate-700/80 pb-4">
               <span className="text-[10px] uppercase font-bold text-orange-400 tracking-wider bg-orange-500/10 border border-orange-500/20 px-2.5 py-1 rounded-full inline-block">
                 Match Duration
@@ -550,12 +550,12 @@ export default function TermsAndConditions() {
               </h2>
             </header>
 
-            {/* Intro Paragraph */}
+          
             <p className="bg-[#0e182e]/80 border border-slate-700/70 p-4 rounded-lg text-xs md:text-sm leading-relaxed text-slate-300">
               The official playing time as set in the rules of a sport including injury time or stoppage time added by the referee, where applicable, is regular time.
             </p>
 
-            {/* Exclusions Subtitle & List */}
+          
             <div className="space-y-3">
               <p className="text-xs md:text-sm font-semibold text-white">
                 Regular Time does NOT include:
@@ -577,7 +577,7 @@ export default function TermsAndConditions() {
 
           </div>
 
-          {/* Footer Note */}
+         
           <p className="text-xs md:text-sm leading-relaxed text-slate-300 pt-3 border-t border-slate-700/80">
             If not otherwise noted, the betting markets will be determined at the end of Regular Time.
           </p>
@@ -589,7 +589,7 @@ export default function TermsAndConditions() {
     {/* --------------------------------------------------------------- */}
     <section className="bg-[#121e36] border border-slate-800 rounded-2xl p-6 md:p-10 text-slate-300 space-y-8">
       
-      {/* Header Banner */}
+    
       <header className="relative bg-gradient-to-r from-[#1a2b4c] via-[#121e36] to-[#0e182e] border border-slate-700/80 rounded-2xl p-6 md:p-8 space-y-3 shadow-xl overflow-hidden">
         <div className="absolute top-0 right-0 w-48 h-48 bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
         
@@ -602,22 +602,22 @@ export default function TermsAndConditions() {
           </span>
         </div>
 
-        <h1 className="text-3xl md:text-5xl font-black text-white italic tracking-wide">
+        <h2 className="text-3xl md:text-5xl font-black text-white italic tracking-wide">
           Accepted betting <span className="text-orange-500">abbreviations</span>
-        </h1>
+        </h2>
 
         <p className="text-xs md:text-sm text-slate-300 leading-relaxed max-w-3xl">
           In sports betting, most markets tend to use abbreviations so the info shows up faster , kind of cleaner , and more efficient. Below are some of the most common abbreviation forms that you will usually see across different sports on 1x Bet.
         </p>
       </header>
 
-      {/* Responsive Table Wrapper */}
+    
       <div className="bg-[#1a2b4c]/60 border border-slate-700/70 rounded-2xl overflow-hidden shadow-2xl backdrop-blur-sm">
         
         <div className="overflow-x-auto">
           <table className="w-full text-left border-collapse">
             
-            {/* Table Header */}
+           
             <thead>
               <tr className="bg-[#0e182e] border-b border-slate-700/80 text-orange-400 font-mono text-xs uppercase tracking-wider">
                 <th className="py-4 px-6 w-1/3">Abbreviation</th>
@@ -625,7 +625,7 @@ export default function TermsAndConditions() {
               </tr>
             </thead>
 
-            {/* Table Body */}
+           
             <tbody className="divide-y divide-slate-800/80 text-xs md:text-sm">
               {abbreviationsData.map((item, index) => (
                 <tr 
@@ -653,7 +653,7 @@ export default function TermsAndConditions() {
     {/* ---------------------------------------------------------------------------------- */}
     <section className="bg-[#121e36] border border-slate-800 rounded-2xl p-6 md:p-10 text-slate-300 space-y-8">
       
-      {/* 1. Main Feature Section */}
+   
       <div className="bg-[#1a2b4c]/70 border border-slate-700/80 rounded-2xl p-6 md:p-8 space-y-6 shadow-xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-48 h-48 bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -667,9 +667,9 @@ export default function TermsAndConditions() {
             </span>
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-black text-white italic tracking-wide">
+          <h2 className="text-3xl md:text-5xl font-black text-white italic tracking-wide">
             Bet Slip <span className="text-orange-500">Sale</span>
-          </h1>
+          </h2>
 
           <p className="text-sm md:text-base font-semibold text-orange-400">
             Cash out your bet , before the event ends
@@ -686,7 +686,7 @@ export default function TermsAndConditions() {
         </div>
       </div>
 
-      {/* 2. Full Bet Slip Sale Sub-Section */}
+     
       <div className="bg-[#1a2b4c]/70 border border-slate-700/80 rounded-2xl p-6 md:p-8 space-y-6 shadow-xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-48 h-48 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -716,7 +716,7 @@ export default function TermsAndConditions() {
     {/* ------------------------------------------------------------------------- */}
   <section className="bg-[#121e36] border border-slate-800 rounded-2xl p-6 md:p-10 text-slate-300 space-y-8">
       
-      {/* 1. Partial Bet Slip Sale */}
+     
       <div className="bg-[#1a2b4c]/70 border border-slate-700/80 rounded-2xl p-6 md:p-8 space-y-6 shadow-xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-48 h-48 bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -739,10 +739,10 @@ export default function TermsAndConditions() {
         </div>
       </div>
 
-      {/* Grid container for Selection Editing Tools */}
+    
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
         
-        {/* 2. Replacement of a Selection */}
+       
         <div className="bg-[#1a2b4c]/70 border border-slate-700/80 rounded-2xl p-6 md:p-8 flex flex-col justify-between space-y-6 shadow-xl relative overflow-hidden">
           <div className="space-y-6">
             <header className="flex items-center gap-3 border-b border-slate-700/80 pb-4">
@@ -775,10 +775,10 @@ export default function TermsAndConditions() {
           </p>
         </div>
 
-        {/* 3. Deletion & Addition of Selections */}
+      
         <div className="space-y-8 flex flex-col justify-between">
           
-          {/* Deletion of a Selection */}
+        
           <div className="bg-[#1a2b4c]/70 border border-slate-700/80 rounded-2xl p-6 md:p-8 space-y-4 shadow-xl">
             <header className="flex items-center gap-3 border-b border-slate-700/80 pb-3">
               <div className="p-2 bg-red-500/10 border border-red-500/30 rounded-xl text-red-400">
@@ -793,7 +793,7 @@ export default function TermsAndConditions() {
             </p>
           </div>
 
-          {/* Add New Selections */}
+          
           <div className="bg-[#1a2b4c]/70 border border-slate-700/80 rounded-2xl p-6 md:p-8 space-y-4 shadow-xl">
             <header className="flex items-center gap-3 border-b border-slate-700/80 pb-3">
               <div className="p-2 bg-emerald-500/10 border border-emerald-500/30 rounded-xl text-emerald-400">
@@ -812,7 +812,7 @@ export default function TermsAndConditions() {
 
       </div>
 
-      {/* 4. Save Your Changes */}
+     
       <div className="bg-gradient-to-r from-[#1a2b4c] via-[#121e36] to-[#0e182e] border border-orange-500/40 rounded-2xl p-6 md:p-8 space-y-4 shadow-2xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-32 h-32 bg-orange-500/10 rounded-full blur-2xl pointer-events-none" />
 

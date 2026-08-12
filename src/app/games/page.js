@@ -283,12 +283,12 @@ export default function GamesPage() {
 
   return (
    <main className="min-h-screen bg-[#070c18] text-slate-200 py-10 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-  {/* Dynamic Ambient Backdrops */}
+ 
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-blue-600/10 rounded-full blur-[160px] pointer-events-none" />
   <div className="absolute top-1/3 -right-40 w-[500px] h-[500px] bg-orange-500/10 rounded-full blur-[180px] pointer-events-none" />
 
   <div className="max-w-6xl mx-auto space-y-10 relative z-10">
-    {/* Main Header */}
+    
     <section className="bg-[#0e172a] border border-slate-800 rounded-3xl p-6 sm:p-10 shadow-2xl space-y-4 text-center relative overflow-hidden">
       <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-semibold tracking-widest uppercase">
         <Sparkles className="w-4 h-4 animate-spin" />
@@ -313,7 +313,7 @@ export default function GamesPage() {
       </div>
     </section>
 
-    {/* Crash Games Section */}
+   
     <section className="bg-[#0e172a] border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-6 shadow-xl">
       <div className="space-y-3">
         <h2 className="text-2xl font-bold text-white tracking-wide">
@@ -343,7 +343,7 @@ export default function GamesPage() {
       </div>
     </section>
 
-    {/* Game Categories List */}
+  
     <div className="space-y-8">
       {gameSections.map((cat, idx) => {
         const IconComp = cat.icon;
@@ -352,7 +352,7 @@ export default function GamesPage() {
             key={idx}
             className="group bg-[#0e172a]/90 backdrop-blur-xl border border-slate-800 hover:border-slate-700 transition-all duration-300 rounded-2xl overflow-hidden shadow-xl flex flex-col md:flex-row items-stretch"
           >
-            {/* Banner Column - 500x400 EXACT RATIO (NO CROP ON MOBILE OR DESKTOP) */}
+         
             <div className="w-full md:w-[380px] lg:w-[450px] shrink-0 relative aspect-[5/4] bg-[#0a1223] overflow-hidden flex items-center justify-center p-3">
               <div className="relative w-full h-full">
                 <Image
@@ -366,14 +366,14 @@ export default function GamesPage() {
                 />
               </div>
 
-              {/* Category Badge */}
+            
               <div className="absolute top-4 left-4 z-10 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#0e172a]/90 backdrop-blur-md border border-slate-700/60">
                 <IconComp className={`w-5 h-5 ${cat.accent}`} />
                 <span className="text-xs font-bold text-white uppercase">{cat.title}</span>
               </div>
             </div>
 
-            {/* Info Content */}
+          
             <div className="flex-1 p-6 sm:p-8 space-y-5 flex flex-col justify-between">
               <div className="space-y-2">
                 <h2 className="text-2xl font-bold text-white tracking-wide">
@@ -407,7 +407,7 @@ export default function GamesPage() {
       })}
     </div>
 
-    {/* Step-By-Step Guide */}
+   
     <section className="bg-[#0e172a] border border-slate-800 rounded-3xl p-6 sm:p-10 shadow-2xl space-y-8 my-10">
       <div className="space-y-3">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-semibold uppercase tracking-wider">
