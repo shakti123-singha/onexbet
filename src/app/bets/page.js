@@ -109,9 +109,9 @@ export default function TypesOfBets() {
           <div className="lg:col-span-7 space-y-6">
 
             <header className="space-y-2 border-b border-slate-800 pb-4">
-              <h1 className="text-2xl md:text-4xl font-black text-white italic tracking-wide">
+              <h2 className="text-2xl md:text-4xl font-black text-white italic tracking-wide">
                 Single Bet
-              </h1>
+              </h2>
               <p className="text-sm md:text-base font-semibold text-orange-400">
                 Knowing the best place to put a bet.
               </p>
@@ -204,9 +204,9 @@ export default function TypesOfBets() {
           <div className="lg:col-span-7 space-y-6 order-1 lg:order-2">
 
             <header className="space-y-2 border-b border-slate-800 pb-4">
-              <h1 className="text-2xl md:text-4xl font-black text-white italic tracking-wide">
+              <h2 className="text-2xl md:text-4xl font-black text-white italic tracking-wide">
                 Accumulator Bet
-              </h1>
+              </h2>
               <p className="text-sm md:text-base font-semibold text-orange-400">
                 Click on Multiple Selections to form an exciting combination bet
               </p>
@@ -265,9 +265,9 @@ export default function TypesOfBets() {
           <span className="inline-block px-3 py-1 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold uppercase tracking-widest rounded-full">
             Advanced Strategy
           </span>
-          <h1 className="text-3xl md:text-5xl font-black text-white italic tracking-wide">
+          <h2 className="text-3xl md:text-5xl font-black text-white italic tracking-wide">
             System <span className="text-orange-500">Bet</span>
-          </h1>
+          </h2>
           <p className="text-sm md:text-base font-medium text-slate-300">
             More flexibility with multiple combinations. More flex with multiple combinations
           </p>

@@ -1,3 +1,26 @@
+export const metadata = {
+  title: 'Contact 1xBet – Customer Support, Live Chat & Email',
+  description: 'Contact 1xBet customer support for account, payment, promotion, game and technical assistance. Get help through 24/7 live chat and email support.',
+  alternates: {
+    canonical: '/contact', 
+  },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/images/1xbet-.png',
+    
+  },
+  openGraph: {
+    title: 'Contact Us | 1x Bet Support',
+    description: 'Need help? Contact 1x Bet support via Email, Live Chat, or Phone.',
+    url: 'https://www.yourdomain.com/contact',
+    siteName: '1x Bet',
+    type: 'website',
+  },
+};
+
+
+
 'use client';
 
 import Image from 'next/image';
@@ -40,28 +63,7 @@ export default function Contact() {
     { service: "Technical Support", availability: "24/7" }
   ];
 
-  // Schema Markup for SEO
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'ContactPage',
-    name: 'Contact Us - 1x Bet Support',
-    description: '',
-    mainEntity: {
-      '@type': 'Organization',
-      name: '1x Bet',
-      email: 'support@apexbet.com',
-      telephone: '+1-000-000-0000',
-      contactPoint: [
-        {
-          '@type': 'ContactPoint',
-          telephone: '+1-000-000-0000',
-          contactType: 'customer service',
-          availableLanguage: ['English'],
-          hoursAvailable: 'Mo-Su 00:00-24:00'
-        }
-      ]
-    }
-  };
+  
 
   return (
     <>

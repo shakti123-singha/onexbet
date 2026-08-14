@@ -20,7 +20,7 @@ const slides = [
     subtitle: 'BET ON YOUR FAVORITE TEAMS',
     cta: 'BET NOW',
     videoSrc: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
-    imageSrc: 'https://picsum.photos/seed/casino2/600/500',
+    imageSrc: '/images/SportsBetting.jpg',
   },
   {
     id: 3,
@@ -28,8 +28,8 @@ const slides = [
     highlight: 'MEGA JACKPOT $1,000,000',
     subtitle: 'SPIN AND WIN DAILY TOURNAMENTS',
     cta: 'PLAY SLOTS',
-    videoSrc: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-    imageSrc: 'https://picsum.photos/seed/casino3/600/500',
+    videoSrc: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscape',
+    imageSrc: '/images/slot.jpg',
   },
   {
     id: 4,

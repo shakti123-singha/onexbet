@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import CustomerReviews from './Customer';
+import { Heading1 } from 'lucide-react';
 
 export default function Content() {
 
@@ -237,9 +238,9 @@ const [openIndex, setOpenIndex] = useState(null);
    
                 {/* Main Title Banner */}
                 <div className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 space-y-10 text-slate-300">
-                    <h2 className="text-xl md:text-2xl font-black text-white italic tracking-wide">
+                    <h1 className="text-xl md:text-2xl font-black text-white italic tracking-wide">
                         Welcome to <span className="text-orange-500">1x Bet</span> – Your Home for Sports Betting & Online Casino Games
-                    </h2>
+                    </h1>
                     <p className="text-orange-400 text-sm font-semibold mt-1">
                         Betting on Your Favorite Sports. Casino Games Available Here!
                     </p>
