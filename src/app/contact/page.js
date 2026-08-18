@@ -1,31 +1,17 @@
-export const metadata = {
-  title: 'Contact 1xBet – Customer Support, Live Chat & Email',
-  description: 'Contact 1xBet customer support for account, payment, promotion, game and technical assistance. Get help through 24/7 live chat and email support.',
-  alternates: {
-    canonical: '/contact', 
-  },
-  icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/images/1xbet-.png',
-    
-  },
-  openGraph: {
-    title: 'Contact Us | 1x Bet Support',
-    description: 'Need help? Contact 1x Bet support via Email, Live Chat, or Phone.',
-    url: 'https://www.yourdomain.com/contact',
-    siteName: '1x Bet',
-    type: 'website',
-  },
-};
-
-
-
 'use client';
 
 import Image from 'next/image';
 
 export default function Contact() {
+  // 1. JSON-LD Object Define Karein
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: 'Contact Us',
+    description: 'Contact 1x Bet customer support via Live Chat, Email, or Phone.',
+    url: 'https://www.yourdomain.com/contact'
+  };
+
   const contactOptions = [
     {
       title: "Email Support",
@@ -63,19 +49,14 @@ export default function Contact() {
     { service: "Technical Support", availability: "24/7" }
   ];
 
-  
-
   return (
     <>
-   
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <section className="bg-[#121e36] border border-slate-800 rounded-xl p-6 md:p-10 space-y-10 text-slate-300">
-        
-     
         <header className="text-center space-y-4 max-w-3xl mx-auto border-b border-slate-800 pb-8">
           <h1 className="text-2xl md:text-4xl font-black text-white italic tracking-wide">
             Contact Us: <span className="text-orange-500">We're Here to Help</span>
@@ -88,7 +69,6 @@ export default function Contact() {
           </p>
         </header>
 
-      
         <div className="space-y-6">
           <h2 className="text-xl md:text-2xl font-extrabold text-white italic border-l-4 border-orange-500 pl-3">
             Get in Touch
@@ -100,7 +80,6 @@ export default function Contact() {
                 className="bg-[#1a2b4c] border border-slate-700/80 rounded-xl overflow-hidden flex flex-col justify-between group hover:border-orange-500/80 transition duration-300 shadow-lg"
               >
                 <div>
-                 
                   <div className="relative w-full aspect-[3/2] overflow-hidden bg-slate-900 flex items-center justify-center p-2">
                     <Image 
                       src={item.image.trim()} 
@@ -136,9 +115,7 @@ export default function Contact() {
           </div>
         </div>
 
-       
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-4">
-          
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 space-y-4 flex flex-col justify-between">
             <div>
               <h3 className="text-lg font-extrabold text-white border-b border-slate-700 pb-3">
@@ -168,7 +145,6 @@ export default function Contact() {
             </div>
           </div>
 
-        
           <div className="bg-[#1a2b4c]/60 border border-slate-700/60 rounded-xl p-6 space-y-4">
             <h3 className="text-lg font-extrabold text-white border-b border-slate-700 pb-3">
               Send Us a Message
@@ -212,9 +188,7 @@ export default function Contact() {
               </button>
             </form>
           </div>
-
         </div>
-
       </section>
     </>
   );
