@@ -10,8 +10,8 @@ const slides = [
     highlight: '& LIVE CASINO',
     subtitle: '100% WELCOME BONUS',
     cta: 'EXPLORE BETTING',
-    videoSrc: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-    imageSrc: 'https://picsum.photos/seed/casino1/600/500',
+    videoSrc: '/images/casino.mp4',
+    imageSrc: '/images/hockey.jpg',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const slides = [
     highlight: 'HIGH ODDS & LIVESTREAM',
     subtitle: 'BET ON YOUR FAVORITE TEAMS',
     cta: 'BET NOW',
-    videoSrc: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    videoSrc: '/images/cricket.mp4',
     imageSrc: '/images/SportsBetting.jpg',
   },
   {
@@ -28,8 +28,8 @@ const slides = [
     highlight: 'MEGA JACKPOT $1,000,000',
     subtitle: 'SPIN AND WIN DAILY TOURNAMENTS',
     cta: 'PLAY SLOTS',
-    videoSrc: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscape',
-    imageSrc: '/images/slot.jpg',
+    videoSrc: '/images/onexbet.mp4',
+    imageSrc: '/images/SLOTS.jpg',
   },
   {
     id: 4,
@@ -37,8 +37,8 @@ const slides = [
     highlight: 'EXCLUSIVE REWARDS',
     subtitle: 'GET UP TO 20% WEEKLY CASHBACK',
     cta: 'CLAIM VIP',
-    videoSrc: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
-    imageSrc: 'https://picsum.photos/seed/casino4/600/500',
+    videoSrc: '/images/vip club.mp4',
+    imageSrc: '/images/kabbadi .jpg',
   }
 ];
 

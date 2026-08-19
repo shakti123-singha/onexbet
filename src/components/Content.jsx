@@ -171,16 +171,16 @@ const [openIndex, setOpenIndex] = useState(null);
         }
     ];
     const paymentMethods = [
-    { name: 'UPI', logo: 'https://picsum.photos/seed/upi/120/60' },
-    { name: 'Google Pay', logo: 'https://picsum.photos/seed/gpay/120/60' },
-    { name: 'PhonePe', logo: 'https://picsum.photos/seed/phonepe/120/60' },
-    { name: 'Paytm', logo: 'https://picsum.photos/seed/paytm/120/60' },
-    { name: 'Net Banking', logo: 'https://picsum.photos/seed/netbanking/120/60' },
-    { name: 'Visa', logo: 'https://picsum.photos/seed/visa/120/60' },
-    { name: 'Mastercard', logo: 'https://picsum.photos/seed/mastercard/120/60' },
-    { name: 'Debit Cards', logo: 'https://picsum.photos/seed/debitcard/120/60' },
-    { name: 'Credit Cards', logo: 'https://picsum.photos/seed/creditcard/120/60' },
-    { name: 'Bank Transfer', logo: 'https://picsum.photos/seed/banktransfer/120/60' },
+    { name: 'UPI', logo: '/images/upi_-.png' },
+    { name: 'Google Pay', logo: '/images/gpay_-.png' },
+    { name: 'PhonePe', logo: '/images/phone_pe_.png' },
+    { name: 'Paytm', logo: '/images/paytm (1).png' },
+    { name: 'Net Banking', logo: '/images/net_backing_-.png' },
+    { name: 'Visa', logo: '/images/visa-.png' },
+    { name: 'Mastercard', logo: '/images/master_card-.png' },
+    { name: 'Debit Cards', logo: '/images/debit_card-.png' },
+    { name: 'Credit Cards', logo: '/images/credit_card.png' },
+   
   ];
 
   const faqs = [
@@ -506,7 +506,7 @@ const [openIndex, setOpenIndex] = useState(null);
           </p>
 
           
-          <div className="relative w-full overflow-hidden bg-[#0e182e] py-4 rounded-xl border border-slate-800">
+          <div className="relative w-full overflow-hidden bg-white py-4 rounded-xl border border-slate-800">
            
             <div className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-[#0e182e] to-transparent z-10 pointer-events-none" />
             <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-[#0e182e] to-transparent z-10 pointer-events-none" />
